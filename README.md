@@ -28,7 +28,7 @@ The main purpose of the project was to re-analyse the school district data-set a
 
  - **Effect on Thomas High School’s performance relative to the other schools after replacing the ninth graders’ math and reading     scores:**
 
-       By looking at the below image, we can see that the Thomas High School's overall passing percentage has slightly decreased after replacing the ninth graders' math and reading scores but it has not affected the Thomas High Schools' ranking in comparison with other schools:
+   By looking at the below image, we can see that the Thomas High School's overall passing percentage has slightly decreased after replacing the ninth graders' math and reading scores but it has not affected the Thomas High Schools' ranking in comparison with other schools:
 
     ![rank](Image_analysis/rank.png)
 
