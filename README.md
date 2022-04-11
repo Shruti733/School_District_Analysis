@@ -42,6 +42,7 @@ The main purpose of the project was to re-analyze the school district data-set a
     ![reading_grade_summary](Image_analysis/reading_grade_summary.png)
 
  - **Effect on Math and Reading Scores by School Spending Summary:**
+ 
     By looking at the below image, we can see that there are changes observed only in the **$631-645** bin row in the summary.
     The changes are outlined below:
     - Average Math Scores and correspondingly `% Passing Math` have slightly decreased.
