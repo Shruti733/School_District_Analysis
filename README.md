@@ -31,12 +31,12 @@ The main purpose of the project was to re-analyse the school district data-set a
    
     By looking at the below image, we can see that the Thomas High School's overall passing percentage has slightly decreased after replacing the ninth graders' math and reading scores but it has not affected the Thomas High Schools' ranking in comparison with other schools:
 
-  ![rank](Image_analysis/rank.png)
+    ![rank](Image_analysis/rank.png)
 
     By looking at the below image, we can see that the math and reading scores for 9th graders of Thomas High School have changed
     to `NaN` whereas, the scores have not changed for any other school or grade as compared to older summary:
 
-  ![math_grade_summary](Image_analysis/math_grade_summary.png)
+    ![math_grade_summary](Image_analysis/math_grade_summary.png)
 
     By looking at the below image, we can see that there are changes observed only in the **$631-645** bin row in the summary.
     The changes are outlined below:
@@ -44,14 +44,15 @@ The main purpose of the project was to re-analyse the school district data-set a
     - Average Reading Scores and correspondingly `% Passing Reading` have slightly increased.
     - `% Overall Passing` has also slightly decreased.
 
-  ![spending_summary](Image_analysis/spending_summary.png)
+    ![spending_summary](Image_analysis/spending_summary.png)
 
     By looking at the below image, we can see that there are changes observed only in the **Medium** school size category row in
     the summary. The changes are outlined below:
     - Average Math Scores and correspondingly `% Passing Math` have slightly decreased.
     - Average Reading Scores and correspondingly `% Passing Reading` have slightly increased.
     - `% Overall Passing` has also slightly decreased.
-  ![size_summary](Image_analysis/size_summary.png)
+
+    ![size_summary](Image_analysis/size_summary.png)
 
     By looking at the below image, we can see that there are changes observed only in the **Charter** category school type row in
     the summary. The changes are outlined below:
