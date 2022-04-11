@@ -17,7 +17,7 @@ The main purpose of the project was to re-analyse the school district data-set a
   By looking at the below image, we can see that the average math and reading scores have slightly decreased.
   This has resulted in all the percentage numbers to decrease:
 
-  ![district_summary](Image_analysis/district_summary.png)
+   ![district_summary](Image_analysis/district_summary.png)
 
 - **Effect on school summary:**
 
