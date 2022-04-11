@@ -40,7 +40,7 @@ The main purpose of the project was to re-analyse the school district data-set a
     By looking at the below image, we can see that there are changes observed only in the **$631-645** bin row in the summary.
     The changes are outlined below:
     - Average Math Scores and correspondingly `% Passing Math` have slightly decreased.
-    - Average Reading Scores and correspondingly `% Passing Reading` have slightly increased.
+    - Average Reading Scores have slightly increased whereas `% Passing Reading` has slightly decreased.
     - `% Overall Passing` has also slightly decreased.
 
     ![spending_summary](Image_analysis/spending_summary.png)
@@ -48,7 +48,7 @@ The main purpose of the project was to re-analyse the school district data-set a
     By looking at the below image, we can see that there are changes observed only in the **Medium** school size category row in
     the summary. The changes are outlined below:
     - Average Math Scores and correspondingly `% Passing Math` have slightly decreased.
-    - Average Reading Scores and correspondingly `% Passing Reading` have slightly increased.
+    - Average Reading Scores have slightly increased whereas `% Passing Reading` has slightly decreased.
     - `% Overall Passing` has also slightly decreased.
 
     ![size_summary](Image_analysis/size_summary.png)
@@ -56,7 +56,18 @@ The main purpose of the project was to re-analyse the school district data-set a
     By looking at the below image, we can see that there are changes observed only in the **Charter** category school type row in
     the summary. The changes are outlined below:
     - Average Math Scores and correspondingly `% Passing Math` have slightly decreased.
-    - Average Reading Scores and correspondingly `% Passing Reading` have slightly increased.
+    - Average Reading Scores have slightly increased whereas `% Passing Reading` has slightly decreased.
     - `% Overall Passing` has also slightly decreased.
 
     ![type_summary](Image_analysis/type_summary.png)
+
+## Summary
+
+The average math scores have decreased in the updated school/district summary after the "suspected" faulty 9th grade math scores
+were replaced with NaN in the school district data-set. This indicates that the "faulty" scores were falsely bloating the overall average to a higher number. Although the difference is quite small, but it was still projecting a better performance by the students
+of Thomas High School. Due to this, all buckets in which Thomas High School was categoried into were showing a slight better
+performance which would have negatively influenced the board decision of diverting additional funds for the school.
+
+The average reading scores have increased in the updated school summary after the "suspected" faulty 9th grade math scores
+were replaced with NaN in the school district data-set. However, the number of passing students in reading have still decreased after the updates were made in the analysis. This indicates that the "faulty" scores were falsely diminishing the
+overall average to a lower number but projecting a better passing rate. Again, the difference is quite small, but it was still projecting a better performance by the students in terms of passing rate in reading for Thomas High School. Due to this, all buckets in which Thomas High School was categoried into were showing a slight better performance in terms of passing rate in reading which would have negatively influenced the board decision of diverting additional funds for the school.
