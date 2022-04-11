@@ -33,18 +33,24 @@ The main purpose of the project was to re-analyze the school district data-set a
 
     ![rank](Image_analysis/rank.png)
 
+ - **Effect on Math and Reading Scores by Grade Summary:**
+
     By looking at the below image, we can see that the math and reading scores for 9th graders of Thomas High School have changed
     to `NaN` whereas, the scores have not changed for any other school or grade as compared to older summary:
 
     ![math_grade_summary](Image_analysis/math_grade_summary.png)
+    ![reading_grade_summary](Image_analysis/reading_grade_summary.png)
 
+ - **Effect on Math and Reading Scores by School Spending Summary:**
     By looking at the below image, we can see that there are changes observed only in the **$631-645** bin row in the summary.
     The changes are outlined below:
     - Average Math Scores and correspondingly `% Passing Math` have slightly decreased.
     - Average Reading Scores have slightly increased whereas `% Passing Reading` has slightly decreased.
     - `% Overall Passing` has also slightly decreased.
 
-    ![spending_summary](Image_analysis/spending_summary.png)
+     ![spending_summary](Image_analysis/spending_summary.png)
+
+ - **Effect on Math and Reading Scores by School Size Summary:**
 
     By looking at the below image, we can see that there are changes observed only in the **Medium** school size category row in
     the summary. The changes are outlined below:
@@ -53,6 +59,8 @@ The main purpose of the project was to re-analyze the school district data-set a
     - `% Overall Passing` has also slightly decreased.
 
     ![size_summary](Image_analysis/size_summary.png)
+
+ - **Effect on Math and Reading Scores by School Type Summary:**
 
     By looking at the below image, we can see that there are changes observed only in the **Charter** category school type row in
     the summary. The changes are outlined below:
